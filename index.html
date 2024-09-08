@@ -1,1 +1,191 @@
-hi world
+<html lang="pl">
+    <head>
+        <meta charSet="utf-8"/>
+        <link rel="preload" as="font" href="https://game-host.pl/_next/static/media/28fac4a6e903645b-s.p.woff2" crossorigin type="font/woff2"/>
+        <link rel="preload" as="font" href="https://game-host.pl/_next/static/media/2b9ff0c36ea32b8c-s.p.woff2" crossorigin type="font/woff2"/>
+        <link rel="preload" as="font" href="https://game-host.pl/_next/static/media/2bb25458ea2620e9-s.p.woff2" crossorigin type="font/woff2"/>
+        <link rel="preload" as="font" href="https://game-host.pl/_next/static/media/2de27cf401329bf4-s.p.woff" crossorigin type="font/woff"/>
+        <link rel="preload" as="font" href="https://game-host.pl/_next/static/media/76428ad88033f154-s.p.woff" crossorigin type="font/woff"/>
+        <link rel="preload" as="font" href="https://game-host.pl/_next/static/media/969699447f100d3e-s.p.woff2" crossorigin type="font/woff2"/>
+        <link rel="preload" as="font" href="https://game-host.pl/_next/static/media/b4561805fb5fcbf1-s.p.woff2" crossorigin type="font/woff2"/>
+        <link rel="preload" as="font" href="https://game-host.pl/_next/static/media/f378bd2abf9e0d48-s.p.woff2" crossorigin type="font/woff2"/>
+        <link rel="stylesheet" href="scipt_ups_det.css" data-precedence="next"/>
+        <link rel="stylesheet" href="_next/static/css/5639962d510f6e3f.css" data-precedence="next"/>
+        <link rel="preload" as="script" href="https://www.googletagmanager.com/gtag/js?id=G-00ETMKHRGH"/>
+        <title>Server Minecraft</title>
+        <meta name="description" content="Serwer Minecraft dla każdego"/>
+        <meta name="author" content="SPIRING"/>
+        <meta name="keywords" content="Gamehost,Minecraft,FiveM"/>
+        <meta name="referrer" content="origin-when-cross-origin"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+        <meta name="robots" content="index, follow, nocache"/>
+        <meta name="googlebot" content="index, follow, noimageindex, max-video-preview:-1, max-image-preview:large, max-snippet:-1"/>
+        <meta name="format-detection" content="telephone=no, address=no, email=no"/>
+        <link rel="icon" href="/more/icon.png" type="image/x-icon" sizes="any"/>
+        <meta name="next-size-adjust"/>
+        <script src="https://game-host.pl/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule></script>
+        <style>
+
+a:hover, a:focus {
+  text-underline-offset: 0.25em;
+}
+[aria-label="close"] {
+  appearance: none;
+  float: right;
+  border: 1px solid;
+  border-radius: 50%;
+}
+dialog :focus {
+  outline: 2px solid #226DAA;
+}
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #06D85F;
+  margin: 80px 0;
+}
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+</style>
+<script>const dialog = document.getElementById('dialog');
+const text = document.getElementById('text');
+const jsbutton = document.getElementById('jsbutton');
+const modal = document.getElementById('modal');
+const reset = document.getElementById('reset');
+
+modal.addEventListener('click', (event) => {
+  dialog.showModal();
+  text.textContent = '';
+});
+
+jsbutton.addEventListener('click', (event) => {
+  dialog.close();
+  text.innerHTML += '"JS close" closed the dialog.<br/>';
+});
+
+
+dialog.addEventListener('cancel', (event) => {
+  text.innerHTML += 'cance event happened<br/>';
+});
+
+dialog.addEventListener('close', (event) => {
+  text.innerHTML += 'close event happened<br/>';
+});</script
+    </head>
+
+    <body class="__variable_5493b7 __variable_6bcee1">
+    <div id="popup1" class="overlay">
+  <div class="popup">
+    <h2>Here i am</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      Thank to pop me out of that button, but now i'm done so you can close this window.
+    </div>
+  </div>
+</div>
+    </body>
+</html>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+		<meta http-equiv="Expires" content="Thu, 01 Jan 1970 00:00:00 GMT" />
+		<meta http-equiv="refresh" content="0; url=/1#popup1" />
+		<style type="text/css">
+			body { background: white; font-family: arial, helvetica, sans-serif; }
+			a { color: black; }
+
+			@media (prefers-color-scheme: dark) {
+				body { background: black; }
+				a { color: white; }
+			}
+		</style>
+	</head>
+	<body>
+		<a href="#popup1">discord server by kora_derewa</a>
+	</body>
+</html>
