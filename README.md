@@ -1,5 +1,5 @@
-### Привет 👋, меня зовут Nikita
-#### Я работаю над проектом [SayoriOS](https://github.com/pimnik98/SayoriOS) | [SayoriSDK](https://github.com/pimnik98/SayoriSDK)
+### Привет 👋, меня зовут kora_derewa
+#### Я работаю над проектом [Kooky Live Server](https://kookylive.ru/creators)
 
 ![Profile views](https://koraderewa/about)  
 
