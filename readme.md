@@ -1,5 +1,5 @@
 ### Привет 👋, меня зовут kora_derewa
-#### Я работаю над проектом [Kooky Live Server] / [KoraCraft](https://w.zwie.rf.gd/creators)
+#### Я работаю над проектом [KoraCraft](https://w.zwie.rf.gd/creators)
 
 Лучше не лесть где всё работоет, но я стараюсь паправить дисайн)
 
