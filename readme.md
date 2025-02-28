@@ -13,4 +13,4 @@
 а также Pawn | RenPy | JPHP
 
 - 📫 Связаться со мной можно: через discord сервер: https://kora.zwie.rf.gd
-- ⚡ Забавный факт: 25% времени в программировании уходит на размышления о том, что zgosc может сделать не так. 
+- ⚡ Fun fact: 25% of programming time is spent thinking about what zgosc could do wrong.
